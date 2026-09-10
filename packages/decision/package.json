@@ -8,5 +8,5 @@
   "exports": { ".": { "types": "./dist/index.d.ts", "default": "./dist/index.js" } },
   "scripts": { "build": "tsc", "typecheck": "tsc --noEmit", "test": "vitest run" },
   "dependencies": { "@oip/core": "workspace:*" },
-  "devDependencies": { "@types/node": "^20.0.0", "typescript": "^5.6.0", "vitest": "^3.2.7" }
+  "devDependencies": { "@types/node": "^20.0.0", "typescript": "^5.6.0", "vitest": "^4.1.11" }
 }
